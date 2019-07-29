@@ -1,0 +1,31 @@
+.carousel {
+  position: relative;
+  border: 1px solid lightgray;
+  overflow: hidden;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.carousel.width-100 {
+  width: 100vw;
+  height: 56.25vh; /* 16:9 ratio */
+}
+.carousel-prev {
+  left: 0.3em;
+}
+.carousel-next {
+  right: 0.3em;
+}
+.carousel-prev,.carousel-next {
+  position: absolute;
+  cursor: pointer;
+  font-size: 200%;
+  top: 50%;
+  transform: translateY(-50%);
+  vertical-align: center;
+  background-color: white;
+  border: 5px solid gray;
+  border-radius: 100%;
+  width: 2em;
+  height: 2em;
+}
