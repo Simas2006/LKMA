@@ -2,8 +2,25 @@ var carousel;
 var allowMove = true;
 
 function initCarousel() {
-  var element = document.getElementsByClassName("carousel-images")[0];
-  if ( ! element ) return;
+  var carouselObj = document.getElementsByClassName("carousel")[0];
+  if ( ! carouselObj ) return;
+  var element = document.createElement("div");
+  element.className = "carousel-images";
+  carouselObj.appendChild(element);
+  var prevButton = document.createElement("button");
+  prevButton.className = "carousel-prev";
+  prevButton.innerText = "←";
+  prevButton.onclick = function() {
+    moveCarousel(-1);
+  }
+  element.appendChild(prevButton);
+  var nextButton = document.createElement("button");
+  nextButton.className = "carousel-next";
+  nextButton.innerText = "→";
+  nextButton.onclick = function() {
+    moveCarousel(1);
+  }
+  element.appendChild(nextButton);
   var images = element.parentElement.getAttribute("data-images").split(" ");
   var displays = [];
   for ( var i = 0; i < images.length; i++ ) {
@@ -18,7 +35,7 @@ function initCarousel() {
   var captionObj = document.createElement("p");
   captionObj.innerText = captions[0];
   captionObj.className = "caption";
-  element.parentNode.insertBefore(captionObj,element.nextSibling);
+  carouselObj.appendChild(captionObj);
   carousel = {
     "displays": displays,
     "captions": captions,

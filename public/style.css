@@ -1,14 +1,19 @@
-.carousel {
+body {
   margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.carousel {
+  display: inline-block;
 }
 .carousel-images {
   position: relative;
   border: 1px solid lightgray;
   overflow: hidden;
 }
-.carousel.width-100,.carousel.width-100 > .carousel-images {
-  width: 100vw;
-  height: calc(100vw * (9/16));
+.carousel.width-85,.carousel.width-85 > .carousel-images {
+  width: 85vw;
+  height: calc(85vw * (9/16));
   max-height: 75vh !important;
 }
 .carousel-display {
