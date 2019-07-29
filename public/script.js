@@ -2,9 +2,9 @@ var carousel;
 var allowMove = true;
 
 function initCarousel() {
-  var element = document.getElementsByClassName("carousel")[0];
+  var element = document.getElementsByClassName("carousel-images")[0];
   if ( ! element ) return;
-  var images = element.getAttribute("data-images").split(" ");
+  var images = element.parentElement.getAttribute("data-images").split(" ");
   var displays = [];
   for ( var i = 0; i < images.length; i++ ) {
     var div = document.createElement("div");
@@ -14,8 +14,15 @@ function initCarousel() {
     displays.push(div);
   }
   displays[0].style.display = "block";
+  var captions = element.parentElement.getAttribute("data-captions").split("/");
+  var captionObj = document.createElement("p");
+  captionObj.innerText = captions[0];
+  captionObj.className = "caption";
+  element.parentNode.insertBefore(captionObj,element.nextSibling);
   carousel = {
     "displays": displays,
+    "captions": captions,
+    "captionObj": captionObj,
     "index": 0
   }
 }
@@ -36,6 +43,7 @@ function moveCarousel(move) {
     carousel.displays[carousel.index].classList.remove("enter" + direction);
     carousel.displays[lastIndex].style.display = "none";
     carousel.displays[carousel.index].style.display = "block";
+    carousel.captionObj.innerText = carousel.captions[carousel.index];
     allowMove = true;
   },1000);
 }

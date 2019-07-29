@@ -7,9 +7,15 @@
   <script src="script.js"></script>
 </head>
 <body>
-  <div class="carousel width-100" data-images="pup1.jpg pup2.jpg pup3.jpg pup4.jpg">
-    <button onclick="moveCarousel(-1)" class="carousel-prev">←</button>
-    <button onclick="moveCarousel(1)" class="carousel-next">→</button>
+  <div
+    class="carousel width-100"
+    data-images="pup1.jpg pup2.jpg pup3.jpg pup4.jpg"
+    data-captions="The oneth pup/And the twoth pup/Now the threeth pup/and the fourrth pup"
+  >
+    <div class="carousel-images">
+      <button onclick="moveCarousel(-1)" class="carousel-prev">←</button>
+      <button onclick="moveCarousel(1)" class="carousel-next">→</button>
+    </div>
   </div>
 </body>
 </html>
