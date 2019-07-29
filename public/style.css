@@ -2,13 +2,78 @@
   position: relative;
   border: 1px solid lightgray;
   overflow: hidden;
+}
+.carousel.width-100 {
+  width: 90vw;
+  height: calc(90vw * (9/16));
+  max-height: 75vh !important;
+}
+.carousel-display {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
-.carousel.width-100 {
-  width: 100vw;
-  height: 56.25vh; /* 16:9 ratio */
+@keyframes enterRight {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: 0;
+  }
+}
+@keyframes exitRight {
+  0% {
+    display: block;
+    left: 0;
+  }
+  100% {
+    display: block;
+    left: -100%;
+  }
+}
+@keyframes enterLeft {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 0;
+  }
+}
+@keyframes exitLeft {
+  0% {
+    display: block;
+    left: 0;
+  }
+  100% {
+    display: block;
+    left: 100%;
+  }
+}
+.carousel-display.enterRight {
+  display: block;
+  animation-name: enterRight;
+  animation-duration: 1s;
+}
+.carousel-display.exitRight {
+  left: -100%;
+  animation-name: exitRight;
+  animation-duration: 1s;
+}
+.carousel-display.enterLeft {
+  display: block;
+  animation-name: enterLeft;
+  animation-duration: 1s;
+}
+.carousel-display.exitLeft {
+  left: 100%;
+  animation-name: exitLeft;
+  animation-duration: 1s;
 }
 .carousel-prev {
   left: 0.3em;
@@ -28,4 +93,5 @@
   border-radius: 100%;
   width: 2em;
   height: 2em;
+  z-index: 1;
 }
