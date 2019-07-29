@@ -36,10 +36,27 @@ function initCarousel() {
   captionObj.innerText = captions[0];
   captionObj.className = "caption";
   carouselObj.appendChild(captionObj);
+  var dotContainer = document.createElement("div");
+  var dots = [];
+  for ( var i = 0; i < images.length; i++ ) {
+    var dot = document.createElement("span");
+    dot.innerHTML = "&nbsp;•&nbsp;";
+    dot.className = "carousel-dot";
+    dot.setAttribute("data-index",i);
+    if ( i == 0 ) dot.classList.add("active");
+    dot.onclick = function() {
+      var move = this.getAttribute("data-index") - carousel.index;
+      moveCarousel(move);
+    }
+    dotContainer.appendChild(dot);
+    dots.push(dot);
+  }
+  carouselObj.appendChild(dotContainer);
   carousel = {
     "displays": displays,
     "captions": captions,
     "captionObj": captionObj,
+    "dots": dots,
     "index": 0
   }
 }
@@ -51,6 +68,10 @@ function moveCarousel(move) {
   carousel.index += move;
   if ( carousel.index <= -1 ) carousel.index = carousel.index + carousel.displays.length;
   if ( carousel.index >= carousel.displays.length ) carousel.index = carousel.index - carousel.displays.length;
+  for ( var i = 0; i < carousel.dots.length; i++ ) {
+    if ( carousel.index == i ) carousel.dots[i].classList.add("active");
+    else carousel.dots[i].classList.remove("active");
+  }
   var direction = move < 0 ? "Left" : "Right";
   carousel.displays[carousel.index].style.display = "block";
   carousel.displays[lastIndex].classList.add("exit" + direction);

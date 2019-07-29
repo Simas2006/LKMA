@@ -1,4 +1,4 @@
-body {
+body,* {
   margin: 0;
   padding: 0;
   text-align: center;
@@ -115,4 +115,12 @@ body {
 .caption {
   margin: 0;
   text-align: center;
+}
+.carousel-dot {
+  cursor: pointer;
+  font-size: 1.75em;
+  color: #888888;
+}
+.carousel-dot.active {
+  color: black;
 }
