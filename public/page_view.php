@@ -7,7 +7,9 @@ fclose($obj);
 
 $path = "../templates/translations/" . $_GET["file"] . ".json";
 $obj = @fopen($path,"r") or die("Bad Request");
-$translationData = json_decode(fread($obj,filesize($path))) -> {$page};
+$fileData = json_decode(fread($obj,filesize($path)));
+$translationData = $fileData -> {$page};
+$translationData = (object) array_merge((array) $translationData,(array) $fileData -> {"global"});
 fclose($obj);
 $keys = array_keys((array) $translationData);
 

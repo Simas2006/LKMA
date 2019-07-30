@@ -1,4 +1,7 @@
 {
+  "global": {
+    "HI": "there"
+  },
   "index": {
     "SOMETHING": "beep boop",
     "ANOTHER_THING": "snoot snoot"
