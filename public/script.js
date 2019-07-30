@@ -92,7 +92,14 @@ function moveCarousel(move) {
 }
 
 function redirect(page) {
-  location.href = `/page_view.php?page=${page}&file=${localStorage.getItem("file")}`
+  location.href = `/page_view.php?page=${page}&file=${localStorage.getItem("lang")}`
+}
+
+function swapLanguage() {
+  var newLang = localStorage.getItem("lang") == "en-us" ? "lt-lt" : "en-us";
+  localStorage.setItem("lang",newLang);
+  var page = location.search.split("&").map(item => item.startsWith("?") ? item.slice(1) : item).filter(item => item.startsWith("page="))[0].slice(5);
+  redirect(page);
 }
 
 window.onload = initCarousel;
