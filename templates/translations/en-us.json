@@ -1,9 +1,21 @@
 {
   "global": {
-    "HI": "there"
+    "LKMA": "Lithuanian Catholic Academy of Sciences",
+    "LKMA_ACRONYM": "LCAS",
+    "HOME": "Home",
+    "HISTORY": "History",
+    "OFFICERS": "Officers",
+    "MEMBERS": "Members",
+    "NEWS": "News",
+    "SCHOLARSHIPS": "Scholarships",
+    "ABOUT": "About",
+    "ARCHIVES": "Archives",
+    "MUSEUM": "Museum",
+    "LIBRARY": "Library",
+    "CONTACT": "Contact&nbsp;Info",
+    "LITHUANIAN": "Lietuviškai"
   },
   "index": {
-    "SOMETHING": "beep boop",
-    "ANOTHER_THING": "snoot snoot"
+    "CONTENT": "<b>The goal of the Lithuanian Catholic Academy of Sciences (LCAS):</b><br /><br />\nTo create a community of Lithuanian scholars of Catholic outlook with diverse academic backgrounds:<br />\n- by keeping Christian thought in the foreground<br />\n- by advancing the achievements and projects of its members<br />\n- by helping members network and share ideas<br /><br />\nIf you'd like to support ALKA, please write a check to \"ALKA\" and send to:<br />\nALKA, 37 Mary Crest Drive, P.O. Box 608, Putnam, CT 06260"
   }
 }
