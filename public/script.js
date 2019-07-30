@@ -40,7 +40,7 @@ function initCarousel() {
   var dots = [];
   for ( var i = 0; i < images.length; i++ ) {
     var dot = document.createElement("span");
-    dot.innerHTML = "&nbsp;•&nbsp;";
+    dot.innerHTML = "• ";
     dot.className = "carousel-dot";
     dot.setAttribute("data-index",i);
     if ( i == 0 ) dot.classList.add("active");

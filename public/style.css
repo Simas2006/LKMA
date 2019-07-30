@@ -1,20 +1,24 @@
-body,* {
+body {
   margin: 0;
+  margin-top: 4.75em;
   padding: 0;
+  background-color: var(--bg-color);
   text-align: center;
+  font-family: "Lucida Grande";
+  font-size: 125%;
 }
 .carousel {
   display: inline-block;
 }
 .carousel-images {
   position: relative;
-  border: 1px solid lightgray;
+  border: 7px inset var(--border-color);
   overflow: hidden;
 }
 .carousel.width-85,.carousel.width-85 > .carousel-images {
   width: 85vw;
   height: calc(85vw * (9/16));
-  max-height: 75vh !important;
+  max-height: calc(75vh - 5em) !important;
 }
 .carousel-display {
   display: none;
@@ -96,24 +100,25 @@ body,* {
   top: 50%;
   transform: translateY(-50%);
   vertical-align: center;
-  background-color: white;
-  border: 5px solid gray;
+  background-color: var(--bg-color);
+  border: 5px inset var(--border-color);
   border-radius: 100%;
   width: 1.5em;
   height: 1.5em;
   z-index: 1;
 }
 .carousel-prev:hover,.carousel-next:hover {
-  background-color: #cfcfcf;
+  background-color: var(--hover-color);
 }
 .carousel-prev:active,.carousel-next:active {
-  background-color: #9f9f9f;
+  background-color: var(--click-color);
 }
 .carousel-prev:focus,.carousel-next:focus {
   outline: none;
 }
 .caption {
   margin: 0;
+  margin-top: 0.5em;
   text-align: center;
 }
 .carousel-dot {
@@ -122,5 +127,12 @@ body,* {
   color: #888888;
 }
 .carousel-dot.active {
-  color: black;
+  color: var(--border-color);
+}
+.header {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 4em;
+  background-color: #faac13;
 }
