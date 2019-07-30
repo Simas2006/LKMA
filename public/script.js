@@ -91,4 +91,8 @@ function moveCarousel(move) {
   },1000);
 }
 
+function redirect(page) {
+  location.href = `/page_view.php?page=${page}&file=${localStorage.getItem("file")}`
+}
+
 window.onload = initCarousel;
