@@ -155,3 +155,37 @@ body {
   text-align: left;
   vertical-align: top;
 }
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 6em;
+  text-align: left;
+  border: 1px solid black;
+}
+.dropdown-content a {
+  display: block;
+  background-color: #eee;
+  color: black;
+  padding: 5px;
+}
+.links a {
+  color: black;
+}
+.links > * {
+  margin-left: 2.5em;
+  margin-right: 2.5em;
+}
+.dropdown-content a:hover {
+  background-color: lightgray;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.title-padded {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
