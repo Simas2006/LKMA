@@ -57,8 +57,12 @@ function initCarousel() {
     "captions": captions,
     "captionObj": captionObj,
     "dots": dots,
-    "index": 0
+    "index": 0,
+    "lastMove": new Date().getTime()
   }
+  setInterval(function() {
+    if ( new Date().getTime() - carousel.lastMove >= 5000 ) moveCarousel(1);
+  },100);
 }
 
 function moveCarousel(move) {
@@ -82,6 +86,7 @@ function moveCarousel(move) {
     carousel.displays[lastIndex].style.display = "none";
     carousel.displays[carousel.index].style.display = "block";
     carousel.captionObj.innerText = carousel.captions[carousel.index];
+    carousel.lastMove = new Date().getTime();
     allowMove = true;
   },1000);
 }
