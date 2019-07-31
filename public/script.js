@@ -46,6 +46,7 @@ function initCarousel() {
     if ( i == 0 ) dot.classList.add("active");
     dot.onclick = function() {
       var move = this.getAttribute("data-index") - carousel.index;
+      if ( move == 0 ) return;
       moveCarousel(move);
     }
     dotContainer.appendChild(dot);
@@ -91,15 +92,23 @@ function moveCarousel(move) {
   },1000);
 }
 
-function redirect(page) {
-  location.href = `/page_view.php?page=${page}&file=${localStorage.getItem("lang")}`
+function getQSParam(name) {
+  var url = window.location.href;
+  name = name.replace(/[\[\]]/g, "\\$&");
+  var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)");
+  var results = regex.exec(url);
+  if ( ! results ) return null;
+  if ( ! results[2] ) return "";
+  return decodeURIComponent(results[2].replace(/\+/g," "));
+}
+
+function redirect(page,lang) {
+  location.href = `/page_view.php?page=${page}&file=${lang || getQSParam("file")}`
 }
 
 function swapLanguage() {
-  var newLang = localStorage.getItem("lang") == "en-us" ? "lt-lt" : "en-us";
-  localStorage.setItem("lang",newLang);
-  var page = location.search.split("&").map(item => item.startsWith("?") ? item.slice(1) : item).filter(item => item.startsWith("page="))[0].slice(5);
-  redirect(page);
+  var newLang = getQSParam("file") == "en-us" ? "lt-lt" : "en-us";
+  redirect(getQSParam("page"),newLang);
 }
 
 window.onload = initCarousel;
