@@ -103,7 +103,7 @@ function getQSParam(name) {
 }
 
 function redirect(page,lang) {
-  location.href = `/page_view.php?page=${page}&file=${lang || getQSParam("file")}`
+  location.href = `page_view.php?page=${page}&file=${lang || getQSParam("file")}`
 }
 
 function swapLanguage() {
