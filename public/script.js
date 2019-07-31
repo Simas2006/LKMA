@@ -26,7 +26,7 @@ function initCarousel() {
   for ( var i = 0; i < images.length; i++ ) {
     var div = document.createElement("div");
     div.className = "carousel-display";
-    div.style.backgroundImage = `url("/images/${images[i]}")`;
+    div.style.backgroundImage = `url("./images/${images[i]}")`;
     element.appendChild(div);
     displays.push(div);
   }
