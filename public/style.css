@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Philosopher');
 body {
   margin: 0;
-  margin-top: 5.25em;
+  margin-top: 6.5em;
   padding: 0;
   background-color: var(--bg-color);
+  color: #363636;
   text-align: center;
-  font-family: "Lucida Grande";
+  font-family: "Philosopher";
   font-size: 125%;
 }
 * {
@@ -15,7 +17,7 @@ body {
 }
 .carousel-images {
   position: relative;
-  border: 7px inset var(--border-color);
+  border: 10px ridge var(--border-color);
   overflow: hidden;
 }
 .carousel.width-85,.carousel.width-85 > .carousel-images {
@@ -142,16 +144,28 @@ body {
   top: 0;
   width: 100vw;
   min-height: 4em;
-  padding-bottom: 0.25em;
-  border-bottom: 0.25em ridge var(--border-color);
-  background-color: #faac13;
+  padding-bottom: 0.5em;
+  border-bottom: 0.5em ridge var(--border-color);
+  background: repeating-linear-gradient(
+    45deg,
+    var(--header-color),
+    var(--header-color) calc(100% - 8em),
+    var(--flag-green-color) calc(100% - 8em),
+    var(--flag-green-color) calc(100% - 4em),
+    var(--flag-red-color) calc(100% - 4em),
+    var(--flag-red-color) calc(100% - 0em)
+  );
   z-index: 10;
+}
+.header-main {
+  width: 100vw;
 }
 .main-table {
   width: 100vw;
 }
 .main-table td {
   width: 50vw;
+  padding-left: 15px;
 }
 .left-align {
   text-align: left;

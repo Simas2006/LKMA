@@ -1,6 +1,9 @@
 body {
-  --bg-color: #ebffe0;
-  --border-color: #29f283;
+  --bg-color: #f2f5ed;
+  --border-color: #1c9c55;
   --hover-color: #cbdfc0;
   --click-color: #abbfa0;
+  --header-color: #fdb913;
+  --flag-green-color: #006a44;
+  --flag-red-color: #c1272d;
 }
