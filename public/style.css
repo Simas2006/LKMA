@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Philosopher');
+@import url('https://fonts.googleapis.com/css?family=Tenor+Sans');
 body {
   margin: 0;
   margin-top: 6.5em;
@@ -6,7 +6,7 @@ body {
   background-color: var(--bg-color);
   color: #363636;
   text-align: center;
-  font-family: "Philosopher";
+  font-family: "Tenor Sans";
   font-size: 125%;
 }
 * {
