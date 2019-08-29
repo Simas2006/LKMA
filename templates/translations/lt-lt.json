@@ -24,6 +24,11 @@
     "CONTENT": "<b>Lietuvių katalikų mokslo akademija (LKMA) istorija:</b><br /><br />\n<b>1922</b> - Isteigta Kaune, Lietuvoj<br />\n<b>1956</b> - Atkurta Romoje po sovietu užemima Lietuvos<br />\n<b>1972</b> - Inkorporuota Connecticut valstijoje su atsakomybė už ALKA<br />\n<b>1990</b> - Atkurta Lietuvoje<br />\n<b>Daber</b> - Veikia ir išeivijoje, ir Lietuvoje",
     "INFO_TEXT": "Apie LKMA Lietuvoje",
     "CAROUSEL_IMAGES": "pup4.jpg pup2.jpg pup3.jpg pup1.jpg",
-    "CAROUSEL_CAPTIONS": "First Dog/Second Dog/Third Dog/Fourth Dog"
+    "CAROUSEL_CAPTIONS": "Pirmas Šuo/Antras Šuo/Trečias Šuo/Ketvirtas Šuo"
+  },
+  "lcas-officers": {
+    "CONTENT": "<b>Lietuvių katalikų mokslo akademija (LKMA) valdyba:</b><br /><br />\n<b>Pirmininkė</b> - Mirga Girniuvienė<br />\n<b>Vice-Pirmininkas</b> - Aleksas Gedmintas<br />\n<b>Iždininkas</b> - Ramūnas Girnius<br />\n<b>Sekretorė</b> - Dalė Lukienė",
+    "CAROUSEL_IMAGES": "pup4.jpg pup2.jpg pup3.jpg pup1.jpg",
+    "CAROUSEL_CAPTIONS": "Pirmas Šuo/Antras Šuo/Trečias Šuo/Ketvirtas Šuo"
   }
 }

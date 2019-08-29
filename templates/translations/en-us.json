@@ -25,5 +25,10 @@
     "INFO_TEXT": "Info about LCAS in Lithuania",
     "CAROUSEL_IMAGES": "pup4.jpg pup2.jpg pup3.jpg pup1.jpg",
     "CAROUSEL_CAPTIONS": "First Dog/Second Dog/Third Dog/Fourth Dog"
+  },
+  "lcas-officers": {
+    "CONTENT": "<b>Lithuanian Catholic Academy of Sciences (LCAS) Elected Officers:</b><br /><br />\n<b>President</b> - Mirga Girniuvienė<br />\n<b>Vice President</b> - Aleksas Gedmintas<br />\n<b>Treasurer</b> - Ramūnas Girnius<br />\n<b>Secretary</b> - Dalė Lukienė",
+    "CAROUSEL_IMAGES": "pup4.jpg pup2.jpg pup3.jpg pup1.jpg",
+    "CAROUSEL_CAPTIONS": "President Mirga Girniuviene, Vice President Aleksas Gedmintas, Treasurer Ramunas Girnius, and Secretary Dale Lukiene/Second Dog/Third Dog/Fourth Dog"
   }
 }
