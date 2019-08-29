@@ -17,7 +17,13 @@
   },
   "index": {
     "CONTENT": "<b>The goal of the Lithuanian Catholic Academy of Sciences (LCAS):</b><br /><br />\nTo create a community of Lithuanian scholars of Catholic outlook with diverse academic backgrounds:<br />\n- by keeping Christian thought in the foreground<br />\n- by advancing the achievements and projects of its members<br />\n- by helping members network and share ideas<br /><br />\nIf you'd like to support ALKA, please write a check to \"ALKA\" and send to:<br />\nALKA, 37 Mary Crest Drive, P.O. Box 608, Putnam, CT 06260",
-    "CAROUSEL_IMAGES": "pup2.jpg pup2.jpg pup3.jpg pup1.jpg",
+    "CAROUSEL_IMAGES": "pup4.jpg pup2.jpg pup3.jpg pup1.jpg",
     "CAROUSEL_CAPTIONS": "First Šuo/Antras Šuo/Trečias Šuo/Ketvirtas Šuo"
+  },
+  "lcas-history": {
+    "CONTENT": "<b>Lithuanian Catholic Academy of Sciences (LCAS) history:</b><br /><br />\n<b>1922</b> - Founded in Kaunas, Lithuania<br />\n<b>1956</b> - Re-established in Rome after Soviet occupation<br />\n<b>1972</b> - Incorporated in Connecticut with responsibility for ALKA<br />\n<b>1990</b> - Re-established in Lithuania<br />\n<b>Present day</b> - Continues to be active outside Lithuania",
+    "INFO_TEXT": "Info about LCAS in Lithuania",
+    "CAROUSEL_IMAGES": "pup4.jpg pup2.jpg pup3.jpg pup1.jpg",
+    "CAROUSEL_CAPTIONS": "First Dog/Second Dog/Third Dog/Fourth Dog"
   }
 }
