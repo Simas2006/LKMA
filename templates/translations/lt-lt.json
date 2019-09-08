@@ -21,14 +21,42 @@
     "CAROUSEL_CAPTIONS": "Pirmas Šuo/Antras Šuo/Trečias Šuo/Ketvirtas Šuo"
   },
   "lcas-history": {
-    "CONTENT": "<b>Lietuvių katalikų mokslo akademija (LKMA) istorija:</b><br /><br />\n<b>1922</b> - Isteigta Kaune, Lietuvoj<br />\n<b>1956</b> - Atkurta Romoje po sovietu užemima Lietuvos<br />\n<b>1972</b> - Inkorporuota Connecticut valstijoje su atsakomybė už ALKA<br />\n<b>1990</b> - Atkurta Lietuvoje<br />\n<b>Daber</b> - Veikia ir išeivijoje, ir Lietuvoje",
+    "CONTENT": "<b>Lietuvių katalikų mokslo akademija (LKMA) istorija:</b><br /><br />\n<b>1922</b> - Isteigta Kaune, Lietuvoje<br />\n<b>1956</b> - Atkurta Romoje po sovietu užemima Lietuvos<br />\n<b>1972</b> - Inkorporuota Connecticut valstijoje su atsakomybė už ALKA<br />\n<b>1990</b> - Atkurta Lietuvoje<br />\n<b>Dabar</b> - Veikia ir išeivijoje, ir Lietuvoje",
     "INFO_TEXT": "Apie LKMA Lietuvoje",
     "CAROUSEL_IMAGES": "pup4.jpg pup2.jpg pup3.jpg pup1.jpg",
     "CAROUSEL_CAPTIONS": "Pirmas Šuo/Antras Šuo/Trečias Šuo/Ketvirtas Šuo"
   },
   "lcas-officers": {
-    "CONTENT": "<b>Lietuvių katalikų mokslo akademija (LKMA) valdyba:</b><br /><br />\n<b>Pirmininkė</b> - Mirga Girniuvienė<br />\n<b>Vice-Pirmininkas</b> - Aleksas Gedmintas<br />\n<b>Iždininkas</b> - Ramūnas Girnius<br />\n<b>Sekretorė</b> - Dalė Lukienė",
+    "CONTENT": "<b>Lietuvių katalikų mokslo akademija (LKMA) valdyba:</b><br /><br />\n<b>Pirmininkė</b> - Mirga Girniuvienė<br />\n<b>Vicepirmininkas</b> - Aleksas Gedmintas<br />\n<b>Iždininkas</b> - Ramūnas Girnius<br />\n<b>Sekretorė</b> - Dalė Lukienė",
     "CAROUSEL_IMAGES": "pup4.jpg pup2.jpg pup3.jpg pup1.jpg",
     "CAROUSEL_CAPTIONS": "Pirmas Šuo/Antras Šuo/Trečias Šuo/Ketvirtas Šuo"
+  },
+  "lcas-members": {
+    "LITERATURE": "Literatūra",
+    "ART_HISTORY": "Meno istorija",
+    "MEDICINE": "Medicina",
+    "SOCIOLOGY": "Sociologija",
+    "GERMAN_LITERATURE": "Vokiečių literatūra",
+    "HISTORY": "Istorija",
+    "FINANCE": "Ekonomika-finansai",
+    "POLITICAL_SCIENCE": "Politiniai mokslai",
+    "LAW": "Teisė",
+    "THEOLOGY": "Teologia",
+    "AMERICAN_LITERATURE": "JAV literatūra",
+    "ANTHROPOLOGY": "Antropologija",
+    "ENGINEERING": "Inžinerija",
+    "PHYSICS": "Fizika",
+    "MATH": "Matematika",
+    "BIOLOGY": "Biologija",
+    "ELECTRICAL_ENGINEERING": "Elektros inžinerija",
+    "ORGANIC_CHEMISTRY": "Organinė chemija",
+    "PSYCHOLOGY": "Psichologija",
+    "PHILOSOPHY": "Filosofija",
+    "PHARMOCOLOGY": "Farmakologija",
+    "PEDAGOGY": "Pedagogika",
+    "COMPUTER_SCIENCE": "Kompiuterinis Mokslas",
+    "ARCHIVING": "Bibliotekininkystė-archyvavimas",
+    "LINGUISTICS": "Kalba",
+    "MASTERS": "Magistras"
   }
 }

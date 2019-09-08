@@ -171,6 +171,18 @@ body {
   text-align: left;
   vertical-align: top;
 }
+.bordered-table {
+  padding-right: 20px;
+}
+.bordered-table table,.bordered-table tr,.bordered-table td {
+  border-collapse: collapse;
+}
+.bordered-table tr:first-child td {
+  border-bottom: 1px solid gray;
+}
+.bordered-table tr:first-child {
+  font-weight: bold;
+}
 .dropdown {
   position: relative;
   display: inline-block;

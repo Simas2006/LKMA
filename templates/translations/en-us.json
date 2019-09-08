@@ -30,5 +30,33 @@
     "CONTENT": "<b>Lithuanian Catholic Academy of Sciences (LCAS) Elected Officers:</b><br /><br />\n<b>President</b> - Mirga Girniuvienė<br />\n<b>Vice President</b> - Aleksas Gedmintas<br />\n<b>Treasurer</b> - Ramūnas Girnius<br />\n<b>Secretary</b> - Dalė Lukienė",
     "CAROUSEL_IMAGES": "pup4.jpg pup2.jpg pup3.jpg pup1.jpg",
     "CAROUSEL_CAPTIONS": "President Mirga Girniuviene, Vice President Aleksas Gedmintas, Treasurer Ramunas Girnius, and Secretary Dale Lukiene/Second Dog/Third Dog/Fourth Dog"
+  },
+  "lcas-members": {
+    "LITERATURE": "Literature",
+    "ART_HISTORY": "Art History",
+    "MEDICINE": "Medicine",
+    "SOCIOLOGY": "Sociology",
+    "GERMAN_LITERATURE": "German Literature",
+    "HISTORY": "History",
+    "FINANCE": "Finance",
+    "POLITICAL_SCIENCE": "Political Science",
+    "LAW": "Law",
+    "THEOLOGY": "Theology",
+    "AMERICAN_LITERATURE": "American Literature",
+    "ANTHROPOLOGY": "Anthropology",
+    "ENGINEERING": "Engineering",
+    "PHYSICS": "Physics",
+    "MATH": "Math",
+    "BIOLOGY": "Biology",
+    "ELECTRICAL_ENGINEERING": "Electrical Engineering",
+    "ORGANIC_CHEMISTRY": "Organic Chemistry",
+    "PSYCHOLOGY": "Psychology",
+    "PHILOSOPHY": "Philosophy",
+    "PHARMOCOLOGY": "Pharmocology",
+    "PEDAGOGY": "Pedagogy",
+    "COMPUTER_SCIENCE": "Computer Science",
+    "ARCHIVING": "Library Archiving",
+    "LINGUISTICS": "Linguistics",
+    "MASTERS": "Master's"
   }
 }
