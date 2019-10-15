@@ -58,5 +58,10 @@
     "ARCHIVING": "Bibliotekininkystė-archyvavimas",
     "LINGUISTICS": "Kalba",
     "MASTERS": "Magistras"
+  },
+  "lcas-scholarships": {
+    "CONTENT_1": "LKMA tvarko Dr. Juozo Kriaučiūno stipendijų fondą. Kasmet LKMA paskiria maždaug $5,000 stipendijom.<br /><br />\nStipendijos teikiamos Lietuvių kilmės Katalikams, bakalauro laipsnį turintiems, studentams ar studentėms, siekiantiems įsigyti magistro ar daktaro laipsnį.<br /><br />\n\nStudentas turi būti bent kiek veiklus visuomeninėje veikloje. Siekiamas mokslo laipsnis gali būti bet kurioje mokslo srityje, įskaitant ir religinę. Stipendijos kandidatas gali studijuoti bet kurios šalies aukštosiose mokyklose.<br /><br />\n\nStudentai norinitis gauti stependija, gali krieptis tiesiogiai į akademija ar būti kitu pasiūlytas. Abiem atvejais reikaalinga rekomendacija ir išpildyta",
+    "APPLICATION": "akenta",
+    "CONTENT_2": ", atsiusta iki balandžio 30."
   }
 }

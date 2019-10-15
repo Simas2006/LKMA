@@ -58,5 +58,10 @@
     "ARCHIVING": "Library Archiving",
     "LINGUISTICS": "Linguistics",
     "MASTERS": "Master's"
+  },
+  "lcas-scholarships": {
+    "CONTENT_1": "LCAS manages the Dr. Juozas Kriaučiūnas Scholarship Fund. Every year LCAS distributes about $5,000 in scholarships.<br /><br />\nScholarships are granted to Catholic students of Lithuanian heritage who already have a Bachelor's degree and are seeking to achieve a Master's or Doctor's degree.<br /><br />\n\nCandidates must be somewhat active in the community. The degree sought may be in any academic discipline, including religious disciplines. The candidate's academic institution may be in any country.<br /><br />\n\nCandidates may nominate themselves or be nominated by someone else. They will need a recommendation and a completed",
+    "APPLICATION": "application",
+    "CONTENT_2": ". Both must be returned to LCAS by April 10th to be considered."
   }
 }
